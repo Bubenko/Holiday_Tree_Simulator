@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+</head>
+
+<body>
+
+  <h1>Welcome to the Holiday Tree Simulator</h1>
+  <ul>
+    <li> Click a green branch (<font color=green>^</font>) to change it into a red ornament
+    <li> Click a red ornament (<font color=red>O</font>) to turn it into an unlit light (only when power is off)
+    <li> Click an unlit light (<font color=gray>*</font>) to turn it into a green branch (only when power is off)
+  </ul>
+
+  <hr>
+
+  <div id="treeArea" align="center" style="font-family: Courier">
+  </div>
+
+  <hr>
+
+  Tree Size:<input type=text id=treeSize></input>
+  Trunk Size:<input type=text id=trunkSize></input>
+  <button id=new>New Tree</button><br>
+  Power: <span id=powerVal>OFF</span>
+  <button id=power>Toggle Power</button>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type=text/javascript> </script> </html>
